@@ -1,4 +1,52 @@
-body {background-color: #33CCFF; color: #336633}
-h2 {color: #0000ff}
-#hashtag {background-color: #ff9900}
-.feature {color:blueviolet}
+body {
+    background-color: #33CCFF;
+    color: #336633;
+    font-family: sans-serif;
+}
+
+h2 {
+    color: #0000ff;
+    font-family: verdana;
+    margin: 3.5%;
+    text-align: center;
+    font-size: 200%;
+    text-shadow: 3px 3px 5px #2f4f4f
+}
+
+header {
+    background-color: #ff9900;
+    padding: 5px;
+    margin: 25px;
+    font-size: 150%;
+    color: #000080;
+    border: 3px outset #000000;
+    border-radius: 200px;
+    text-align: center
+}
+
+.feature {
+    color: blueviolet
+}
+
+footer {
+    font-style: italic;
+    font-size: 80%
+}
+
+ol {
+    list-style-type: upper-roman;
+    background-image: url(arrows.jpg);
+    background-repeat: no-repeat;
+    background-position: right
+}
+
+main p a {
+    font-weight: bold;
+    color: #1e90ff
+}
+
+#wrapper {
+    width: 85%;
+    margin-left: auto;
+    margin-right: auto
+}
