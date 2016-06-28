@@ -1,12 +1,14 @@
 body {
     background-color: #33CCFF;
     color: #000000;
-    font-family: sans-serif;
+    font-family: Voltaire, "Istok Web", Sans-serif;
+    background-image: url(symbol.jpg);
+    background-size: 10%, 10%;
 }
 
 h2 {
     color: #0000ff;
-    font-family: verdana;
+    font-family: Verdana, Geneva, Serif;
     margin: 3.5%;
     text-align: center;
     font-size: 200%;
@@ -25,16 +27,16 @@ header {
 }
 
 .feature {
-    color: blueviolet
+    color: #81279E
 }
 
 footer {
     font-style: italic;
-    font-size: 80%
+    font-size: 75%
 }
 
 ol {
-    list-style-type: upper-roman;
+    list-style-type:square;
     background-image: url(arrows.jpg);
     background-repeat: no-repeat;
     background-position: right
@@ -42,11 +44,13 @@ ol {
 
 main p a {
     font-weight: bold;
-    color: #1e90ff
+    color: #221FB1;
+    font-size: 120%
 }
 
 #wrapper {
     width: 85%;
     margin-left: auto;
-    margin-right: auto
+    margin-right: auto;
+    background-color: #33CCFF;
 }
