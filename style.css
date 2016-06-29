@@ -7,7 +7,7 @@ body {
 }
 
 h2 {
-    color: #0000ff;
+    color: #FEB600;
     font-family: Verdana, Geneva, Serif;
     margin: 3.5%;
     text-align: center;
@@ -27,19 +27,20 @@ header {
 }
 
 .feature {
-    color: #81279E
+    color: #CC9900;
+    font-weight: bold
 }
 
 footer {
     font-style: italic;
-    font-size: 75%
+    font-size: 75%;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 ol {
-    list-style-type:square;
-    background-image: url(arrows.jpg);
-    background-repeat: no-repeat;
-    background-position: right
+    list-style-image: url(listmark2.png);
 }
 
 main p a {
@@ -52,5 +53,11 @@ main p a {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #33CCFF;
+    background-color: #334dd5;
+    border: 5px solid #000000
+}
+
+p {
+    margin-left: 10px;
+    margin-right: 10px
 }
