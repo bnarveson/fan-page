@@ -1,6 +1,6 @@
 body {
     background-color: #33CCFF;
-    color: #000000;
+    color: #FFFFEE;
     font-family: Voltaire, "Istok Web", Sans-serif;
     background-image: url(symbol.jpg);
     background-size: 10%, 10%;
@@ -27,7 +27,7 @@ header {
 }
 
 .feature {
-    color: #CC9900;
+    color: #FEB600;
     font-weight: bold
 }
 
