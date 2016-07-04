@@ -4,6 +4,7 @@ body {
     font-family: Voltaire, "Istok Web", Sans-serif;
     background-image: url(symbol.jpg);
     background-size: 10%, 10%;
+    padding-right: 2%;
 }
 
 h2 {
@@ -19,11 +20,17 @@ header {
     background-color: #ff9900;
     padding: 5px;
     margin: 25px;
-    font-size: 150%;
-    color: #000080;
+    font-size: 125%;
+    color: #FFC824;
     border: 3px outset #000000;
     border-radius: 200px;
-    text-align: center
+    text-align: center;
+    font-style: oblique;
+    text-transform: uppercase;
+    background-image: url(header2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
 }
 
 .feature {
@@ -41,6 +48,9 @@ footer {
 
 ol {
     list-style-image: url(listmark2.png);
+    text-align: center;
+    font-size: 125%;
+    width: 45%;
 }
 
 main p a {
@@ -50,14 +60,32 @@ main p a {
 }
 
 #wrapper {
-    width: 85%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #334dd5;
-    border: 5px solid #000000
+    background-color: #363377;
+    background-image: linear-gradient(to top, #817FB2, #363377);
+    border: 5px solid #000000;
+    padding-top: 2.5%;
+    padding-left: 3%;
+    padding-right: 2%
 }
-
 p {
     margin-left: 10px;
-    margin-right: 10px
+    margin-right: 10px;
+    padding: 5%;
+    text-indent: 4em;
+    font-size: 125%;
+}
+
+.website {
+    text-indent: 0em;
+}
+
+h1 {
+    padding-top: 80px;
+    margin-top: 0;
+    margin-bottom: 0;
+    text-shadow: 3px 3px 5px #666;
+    opacity: 0.8;
 }
