@@ -27,7 +27,7 @@ header {
     text-align: center;
     font-style: oblique;
     text-transform: uppercase;
-    background-image: url(header2.jpg);
+    background-image: url(header3.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100%;
@@ -89,3 +89,4 @@ h1 {
     text-shadow: 3px 3px 5px #666;
     opacity: 0.8;
 }
+#column {padding-bottom: 4.6em;}
