@@ -12,15 +12,15 @@ h2 {
     font-family: Verdana, Geneva, Serif;
     margin: 3.5%;
     text-align: center;
-    font-size: 200%;
+    font-size: 275%;
     text-shadow: 3px 3px 5px #2f4f4f
 }
 
 header {
-    background-color: #ff9900;
+    background-color: #363377;
     padding: 5px;
     margin: 25px;
-    font-size: 125%;
+    font-size: 200%;
     color: #FFC824;
     border: 3px outset #000000;
     border-radius: 200px;
@@ -46,10 +46,10 @@ footer {
     margin-right: 10px;
 }
 
-ol {
+ul {
     list-style-image: url(listmark2.png);
     text-align: center;
-    font-size: 125%;
+    font-size: 150%;
     width: 45%;
 }
 
@@ -70,12 +70,13 @@ main p a {
     padding-left: 3%;
     padding-right: 2%
 }
+
 p {
     margin-left: 10px;
     margin-right: 10px;
     padding: 5%;
     text-indent: 4em;
-    font-size: 125%;
+    font-size: 150%;
 }
 
 .website {
@@ -83,10 +84,49 @@ p {
 }
 
 h1 {
-    padding-top: 80px;
+    padding-top: 120px;
     margin-top: 0;
     margin-bottom: 0;
     text-shadow: 3px 3px 5px #666;
     opacity: 0.8;
 }
-#column {padding-bottom: 4.6em;}
+
+#column {
+    padding-bottom: 4.6em;
+}
+
+#column a img {
+    margin-left: 10px;
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+
+figure {
+    width: 580px;
+    border: 10px solid #000000;
+    padding: 5px;
+}
+
+figcaption {
+    text-align: center;
+    font-family: fantasy, Papyrus, Sans-serif;
+    color: #000000;
+    font-size: 150%;
+}
+@media only screen and (max-width: 64em) {
+    header {font-size: 125%; }
+    h1 {padding-top: 80px;}
+    h2 {font-size: 200%;}
+    p {font-size: 125%;}
+    ul {font-size: 125%;}
+    
+}
+@media only screen and (max-width: 37.5em) {
+    body {background-image: none; background-color: #817fb2; padding: 0;}
+    #wrapper {width: 100%; border-style: none; padding: 0;}
+    figure {display: none;}
+    #column a img {display: none;}
+    ul {width: 90%}
+    header {background-image: none; border-style: none; background-color: #31304F; border-radius: 0px; color: #ffd763;}
+}
