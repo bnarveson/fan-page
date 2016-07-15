@@ -8,12 +8,12 @@ body {
 }
 
 h2 {
-    color: #FEB600;
+    color: #d3b969;
     font-family: Verdana, Geneva, Serif;
     margin: 3.5%;
     text-align: center;
     font-size: 275%;
-    text-shadow: 3px 3px 5px #2f4f4f
+    text-shadow: 3px 3px 5px #7f6515;
 }
 
 header {
@@ -21,7 +21,7 @@ header {
     padding: 5px;
     margin: 25px;
     font-size: 200%;
-    color: #FFC824;
+    color: #Fee9a8;
     border: 3px outset #000000;
     border-radius: 200px;
     text-align: center;
@@ -87,7 +87,7 @@ h1 {
     padding-top: 120px;
     margin-top: 0;
     margin-bottom: 0;
-    text-shadow: 3px 3px 5px #666;
+    text-shadow: 3px 3px 5px #544000;
     opacity: 0.8;
 }
 
@@ -118,6 +118,8 @@ figcaption {
 #loop {
     display: none;
 }
+footer span {font-size: 125%}
+footer p {float: right; margin-left: -80px; margin-right: -40px;}
 
 @media only screen and (max-width: 64em) {
     header {
@@ -166,9 +168,9 @@ figcaption {
         background-image: none;
         border-style: none;
         border-radius: 0px;
-        color: #ffd763;
         margin-top: 0;
         background: none;
+        opacity: 1;
     }
     #loop {
         display: block;
